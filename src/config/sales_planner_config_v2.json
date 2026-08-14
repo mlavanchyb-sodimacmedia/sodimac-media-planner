@@ -1,0 +1,1152 @@
+{
+  "families": [
+    "PLOMERIA / GASFITERIA",
+    "FERRETERIA",
+    "ELECTRICIDAD",
+    "ACCESORIOS AUTOMOVILES",
+    "CASA INTELIGENTE",
+    "HERRAMIENTAS Y MAQUINARIAS",
+    "ASEO",
+    "TEMPORADA",
+    "MENAJE",
+    "ORGANIZACION",
+    "ILUMINACION Y VENTILADORES",
+    "MUEBLES",
+    "DECORACION",
+    "MASCOTAS",
+    "AIRE LIBRE",
+    "JARDIN",
+    "OBRA GRUESA",
+    "TABIQUERIA/TECHUMBRE/AISLACION",
+    "PUERTAS/VENTANAS/MOLDURAS",
+    "MADERA Y TABLEROS",
+    "FIERRO/HIERRO/ACERO",
+    "ALQUILER DE HERRAMIENTAS",
+    "PROMOCIONES - SOPORTE TECNICO",
+    "REVENUE SHARE 3P",
+    "BANOS Y COCINAS",
+    "PINTURA Y ACCESORIOS",
+    "PISOS Y MUROS",
+    "ELECTROHOGAR",
+    "SIN FAMILIA"
+  ],
+  "formats": [
+    {
+      "id": 1,
+      "product": "Tienda",
+      "detail": "Parante Mesón",
+      "key": "Tienda | Parante Mesón",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 65,
+        "co": 50,
+        "pe": 10
+      }
+    },
+    {
+      "id": 2,
+      "product": "Tienda",
+      "detail": "Promotores de tienda",
+      "key": "Tienda | Promotores de tienda",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 60,
+        "co": 55,
+        "pe": 25
+      }
+    },
+    {
+      "id": 3,
+      "product": "Tienda",
+      "detail": "Cubo",
+      "key": "Tienda | Cubo",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 65,
+        "co": 45,
+        "pe": 15
+      }
+    },
+    {
+      "id": 4,
+      "product": "Tienda",
+      "detail": "Feria",
+      "key": "Tienda | Feria",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 80,
+        "co": 55,
+        "pe": 15
+      }
+    },
+    {
+      "id": 5,
+      "product": "Tienda",
+      "detail": "Volante",
+      "key": "Tienda | Volante",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 50,
+        "co": 35,
+        "pe": 20
+      }
+    },
+    {
+      "id": 6,
+      "product": "Tienda",
+      "detail": "Showroom",
+      "key": "Tienda | Showroom",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 85,
+        "co": 75,
+        "pe": 20
+      }
+    },
+    {
+      "id": 7,
+      "product": "Tienda",
+      "detail": "Gráficas",
+      "key": "Tienda | Gráficas",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 75,
+        "co": 50,
+        "pe": 10
+      }
+    },
+    {
+      "id": 8,
+      "product": "Tienda",
+      "detail": "Aereo",
+      "key": "Tienda | Aereo",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 70,
+        "co": 50,
+        "pe": 10
+      }
+    },
+    {
+      "id": 9,
+      "product": "Tienda",
+      "detail": "Stand",
+      "key": "Tienda | Stand",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 85,
+        "co": 75,
+        "pe": 20
+      }
+    },
+    {
+      "id": 10,
+      "product": "B2B_Analitica",
+      "detail": "Otros",
+      "key": "B2B_Analitica | Otros",
+      "min": null,
+      "layer": "Data / Analítica",
+      "weights": {
+        "aw": 20,
+        "co": 50,
+        "pe": 35
+      }
+    },
+    {
+      "id": 11,
+      "product": "Contenido",
+      "detail": "Trends",
+      "key": "Contenido | Trends",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 85,
+        "co": 60,
+        "pe": 15
+      }
+    },
+    {
+      "id": 12,
+      "product": "Contenido",
+      "detail": "Post Redes Sociales",
+      "key": "Contenido | Post Redes Sociales",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 85,
+        "co": 60,
+        "pe": 15
+      }
+    },
+    {
+      "id": 13,
+      "product": "Contenido",
+      "detail": "Historia",
+      "key": "Contenido | Historia",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 85,
+        "co": 65,
+        "pe": 15
+      }
+    },
+    {
+      "id": 14,
+      "product": "Contenido",
+      "detail": "En terreno",
+      "key": "Contenido | En terreno",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 80,
+        "co": 60,
+        "pe": 20
+      }
+    },
+    {
+      "id": 15,
+      "product": "Contenido",
+      "detail": "Repatrocinio",
+      "key": "Contenido | Repatrocinio",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 75,
+        "co": 60,
+        "pe": 20
+      }
+    },
+    {
+      "id": 16,
+      "product": "Contenido",
+      "detail": "Landing de Marca",
+      "key": "Contenido | Landing de Marca",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 65,
+        "co": 85,
+        "pe": 35
+      }
+    },
+    {
+      "id": 17,
+      "product": "Contenido",
+      "detail": "Producción de Catálogo",
+      "key": "Contenido | Producción de Catálogo",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 60,
+        "co": 75,
+        "pe": 25
+      }
+    },
+    {
+      "id": 18,
+      "product": "Contenido",
+      "detail": "Video entregado por proveedor",
+      "key": "Contenido | Video entregado por proveedor",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 75,
+        "co": 55,
+        "pe": 15
+      }
+    },
+    {
+      "id": 19,
+      "product": "Home",
+      "detail": "Pop Up",
+      "key": "Home | Pop Up",
+      "min": 2000000,
+      "layer": "Digital Onsite",
+      "weights": {
+        "aw": 95,
+        "co": 60,
+        "pe": 15
+      }
+    },
+    {
+      "id": 20,
+      "product": "Home",
+      "detail": "Vitrina home",
+      "key": "Home | Vitrina home",
+      "min": 1500000,
+      "layer": "Digital Onsite",
+      "weights": {
+        "aw": 90,
+        "co": 70,
+        "pe": 20
+      }
+    },
+    {
+      "id": 21,
+      "product": "Home",
+      "detail": "Hotseller home",
+      "key": "Home | Hotseller home",
+      "min": 500000,
+      "layer": "Digital Onsite",
+      "weights": {
+        "aw": 75,
+        "co": 65,
+        "pe": 35
+      }
+    },
+    {
+      "id": 22,
+      "product": "Media On",
+      "detail": "PMAX",
+      "key": "Media On | PMAX",
+      "min": 300000,
+      "layer": "Digital Offsite",
+      "weights": {
+        "aw": 35,
+        "co": 55,
+        "pe": 95
+      }
+    },
+    {
+      "id": 23,
+      "product": "Media On",
+      "detail": "Search",
+      "key": "Media On | Search",
+      "min": 300000,
+      "layer": "Digital Offsite",
+      "weights": {
+        "aw": 15,
+        "co": 30,
+        "pe": 100
+      }
+    },
+    {
+      "id": 24,
+      "product": "Media On",
+      "detail": "Shopping",
+      "key": "Media On | Shopping",
+      "min": 300000,
+      "layer": "Digital Offsite",
+      "weights": {
+        "aw": 15,
+        "co": 35,
+        "pe": 95
+      }
+    },
+    {
+      "id": 25,
+      "product": "Media On",
+      "detail": "Facebook Tráfico",
+      "key": "Media On | Facebook Tráfico",
+      "min": 300000,
+      "layer": "Digital Offsite",
+      "weights": {
+        "aw": 80,
+        "co": 60,
+        "pe": 35
+      }
+    },
+    {
+      "id": 26,
+      "product": "Mensajeria",
+      "detail": "triggers",
+      "key": "Mensajeria | triggers",
+      "min": 1000000,
+      "layer": "CRM / Mensajería",
+      "weights": {
+        "aw": 25,
+        "co": 55,
+        "pe": 90
+      }
+    },
+    {
+      "id": 27,
+      "product": "Mensajeria",
+      "detail": "Email Exclusivo",
+      "key": "Mensajeria | Email Exclusivo",
+      "min": 1500000,
+      "layer": "CRM / Mensajería",
+      "weights": {
+        "aw": 35,
+        "co": 65,
+        "pe": 85
+      }
+    },
+    {
+      "id": 28,
+      "product": "Mensajeria",
+      "detail": "Whatsapp",
+      "key": "Mensajeria | Whatsapp",
+      "min": 1500000,
+      "layer": "CRM / Mensajería",
+      "weights": {
+        "aw": 25,
+        "co": 55,
+        "pe": 90
+      }
+    },
+    {
+      "id": 29,
+      "product": "Mensajeria",
+      "detail": "Encuesta",
+      "key": "Mensajeria | Encuesta",
+      "min": 1000000,
+      "layer": "CRM / Mensajería",
+      "weights": {
+        "aw": 45,
+        "co": 70,
+        "pe": 25
+      }
+    },
+    {
+      "id": 30,
+      "product": "Mensajeria",
+      "detail": "Push",
+      "key": "Mensajeria | Push",
+      "min": 500000,
+      "layer": "CRM / Mensajería",
+      "weights": {
+        "aw": 30,
+        "co": 50,
+        "pe": 85
+      }
+    },
+    {
+      "id": 31,
+      "product": "Revenue Share 3P",
+      "detail": "Revenue Share",
+      "key": "Revenue Share 3P | Revenue Share",
+      "min": null,
+      "layer": "Revenue Share",
+      "weights": {
+        "aw": 5,
+        "co": 25,
+        "pe": 95
+      }
+    },
+    {
+      "id": 32,
+      "product": "Sodimac Ads",
+      "detail": "Banner",
+      "key": "Sodimac Ads | Banner",
+      "min": 1000000,
+      "layer": "Digital Onsite",
+      "weights": {
+        "aw": 75,
+        "co": 70,
+        "pe": 25
+      }
+    },
+    {
+      "id": 33,
+      "product": "Sponsored Products",
+      "detail": "Sponsored Products",
+      "key": "Sponsored Products | Sponsored Products",
+      "min": 200000,
+      "layer": "Digital Onsite",
+      "weights": {
+        "aw": 10,
+        "co": 35,
+        "pe": 100
+      }
+    },
+    {
+      "id": 34,
+      "product": "Sponsored Products",
+      "detail": "Sponsored Brands",
+      "key": "Sponsored Products | Sponsored Brands",
+      "min": 200000,
+      "layer": "Digital Onsite",
+      "weights": {
+        "aw": 65,
+        "co": 75,
+        "pe": 60
+      }
+    },
+    {
+      "id": 35,
+      "product": "Tienda",
+      "detail": "Cubre sensores",
+      "key": "Tienda | Cubre sensores",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 60,
+        "co": 45,
+        "pe": 15
+      }
+    },
+    {
+      "id": 36,
+      "product": "Tienda",
+      "detail": "Cabecera",
+      "key": "Tienda | Cabecera",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 90,
+        "co": 75,
+        "pe": 25
+      }
+    },
+    {
+      "id": 37,
+      "product": "Tienda",
+      "detail": "Revestimiento lineal",
+      "key": "Tienda | Revestimiento lineal",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 75,
+        "co": 55,
+        "pe": 15
+      }
+    },
+    {
+      "id": 38,
+      "product": "Tienda",
+      "detail": "Pallet",
+      "key": "Tienda | Pallet",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 80,
+        "co": 65,
+        "pe": 35
+      }
+    },
+    {
+      "id": 39,
+      "product": "Tienda",
+      "detail": "Pilar",
+      "key": "Tienda | Pilar",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 75,
+        "co": 55,
+        "pe": 15
+      }
+    },
+    {
+      "id": 40,
+      "product": "Tienda",
+      "detail": "Radio tienda",
+      "key": "Tienda | Radio tienda",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 70,
+        "co": 50,
+        "pe": 20
+      }
+    },
+    {
+      "id": 41,
+      "product": "Tienda",
+      "detail": "Mesa",
+      "key": "Tienda | Mesa",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 70,
+        "co": 65,
+        "pe": 30
+      }
+    },
+    {
+      "id": 42,
+      "product": "Tienda",
+      "detail": "Carros de compra",
+      "key": "Tienda | Carros de compra",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 70,
+        "co": 50,
+        "pe": 15
+      }
+    },
+    {
+      "id": 43,
+      "product": "Tienda",
+      "detail": "Góndola",
+      "key": "Tienda | Góndola",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 65,
+        "co": 70,
+        "pe": 45
+      }
+    },
+    {
+      "id": 44,
+      "product": "Tienda",
+      "detail": "Escalera mecánicas",
+      "key": "Tienda | Escalera mecánicas",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 75,
+        "co": 50,
+        "pe": 10
+      }
+    },
+    {
+      "id": 45,
+      "product": "Tienda",
+      "detail": "Canastillo",
+      "key": "Tienda | Canastillo",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 65,
+        "co": 45,
+        "pe": 20
+      }
+    },
+    {
+      "id": 46,
+      "product": "Tienda",
+      "detail": "Circuito pantallas",
+      "key": "Tienda | Circuito pantallas",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 90,
+        "co": 70,
+        "pe": 20
+      }
+    },
+    {
+      "id": 47,
+      "product": "Tienda",
+      "detail": "Isla",
+      "key": "Tienda | Isla",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 75,
+        "co": 65,
+        "pe": 30
+      }
+    },
+    {
+      "id": 48,
+      "product": "Tienda",
+      "detail": "PDQ",
+      "key": "Tienda | PDQ",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 55,
+        "co": 65,
+        "pe": 50
+      }
+    },
+    {
+      "id": 49,
+      "product": "Tienda",
+      "detail": "Gancheras",
+      "key": "Tienda | Gancheras",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 55,
+        "co": 60,
+        "pe": 45
+      }
+    },
+    {
+      "id": 50,
+      "product": "Tienda",
+      "detail": "Vibrin",
+      "key": "Tienda | Vibrin",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 55,
+        "co": 50,
+        "pe": 25
+      }
+    },
+    {
+      "id": 51,
+      "product": "Tienda",
+      "detail": "Pendon roller",
+      "key": "Tienda | Pendon roller",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 70,
+        "co": 45,
+        "pe": 10
+      }
+    },
+    {
+      "id": 52,
+      "product": "Tienda",
+      "detail": "Toblerone",
+      "key": "Tienda | Toblerone",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 70,
+        "co": 45,
+        "pe": 10
+      }
+    },
+    {
+      "id": 53,
+      "product": "Tienda",
+      "detail": "Mini bins",
+      "key": "Tienda | Mini bins",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 50,
+        "co": 55,
+        "pe": 45
+      }
+    },
+    {
+      "id": 54,
+      "product": "Tienda",
+      "detail": "Rompefilas/Stopper",
+      "key": "Tienda | Rompefilas/Stopper",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 75,
+        "co": 45,
+        "pe": 10
+      }
+    },
+    {
+      "id": 55,
+      "product": "Contenido",
+      "detail": "Proyecto HUM",
+      "key": "Contenido | Proyecto HUM",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 75,
+        "co": 75,
+        "pe": 25
+      }
+    },
+    {
+      "id": 56,
+      "product": "Contenido",
+      "detail": "Pauta Adicional",
+      "key": "Contenido | Pauta Adicional",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 65,
+        "co": 55,
+        "pe": 35
+      }
+    },
+    {
+      "id": 57,
+      "product": "Contenido",
+      "detail": "Influencers",
+      "key": "Contenido | Influencers",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 90,
+        "co": 70,
+        "pe": 15
+      }
+    },
+    {
+      "id": 58,
+      "product": "Contenido",
+      "detail": "Reels",
+      "key": "Contenido | Reels",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 90,
+        "co": 65,
+        "pe": 20
+      }
+    },
+    {
+      "id": 59,
+      "product": "Contenido",
+      "detail": "Republicación",
+      "key": "Contenido | Republicación",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 75,
+        "co": 55,
+        "pe": 20
+      }
+    },
+    {
+      "id": 60,
+      "product": "Tienda",
+      "detail": "Activación tienda",
+      "key": "Tienda | Activación tienda",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 85,
+        "co": 75,
+        "pe": 30
+      }
+    },
+    {
+      "id": 61,
+      "product": "Concurso",
+      "detail": "Gift card",
+      "key": "Concurso | Gift card",
+      "min": null,
+      "layer": "Promocional",
+      "weights": {
+        "aw": 70,
+        "co": 70,
+        "pe": 30
+      }
+    },
+    {
+      "id": 62,
+      "product": "Concurso",
+      "detail": "CMR Puntos",
+      "key": "Concurso | CMR Puntos",
+      "min": null,
+      "layer": "Promocional",
+      "weights": {
+        "aw": 65,
+        "co": 70,
+        "pe": 35
+      }
+    },
+    {
+      "id": 63,
+      "product": "Media Off",
+      "detail": "Evento",
+      "key": "Media Off | Evento",
+      "min": null,
+      "layer": "Media Off",
+      "weights": {
+        "aw": 95,
+        "co": 70,
+        "pe": 10
+      }
+    },
+    {
+      "id": 64,
+      "product": "Media Off",
+      "detail": "OOH",
+      "key": "Media Off | OOH",
+      "min": null,
+      "layer": "Media Off",
+      "weights": {
+        "aw": 100,
+        "co": 45,
+        "pe": 5
+      }
+    },
+    {
+      "id": 65,
+      "product": "Media Off",
+      "detail": "CTV",
+      "key": "Media Off | CTV",
+      "min": null,
+      "layer": "Media Off",
+      "weights": {
+        "aw": 95,
+        "co": 55,
+        "pe": 10
+      }
+    },
+    {
+      "id": 66,
+      "product": "Media Off",
+      "detail": "TV Abierta",
+      "key": "Media Off | TV Abierta",
+      "min": null,
+      "layer": "Media Off",
+      "weights": {
+        "aw": 100,
+        "co": 45,
+        "pe": 5
+      }
+    },
+    {
+      "id": 67,
+      "product": "Contenido",
+      "detail": "Live shopping",
+      "key": "Contenido | Live shopping",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 80,
+        "co": 80,
+        "pe": 30
+      }
+    },
+    {
+      "id": 68,
+      "product": "Contenido",
+      "detail": "Producción audiovisual",
+      "key": "Contenido | Producción audiovisual",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 85,
+        "co": 65,
+        "pe": 15
+      }
+    },
+    {
+      "id": 69,
+      "product": "Contenido",
+      "detail": "Short",
+      "key": "Contenido | Short",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 85,
+        "co": 60,
+        "pe": 15
+      }
+    },
+    {
+      "id": 70,
+      "product": "Contenido",
+      "detail": "Streaming en Redes Sociales",
+      "key": "Contenido | Streaming en Redes Sociales",
+      "min": null,
+      "layer": "Contenido",
+      "weights": {
+        "aw": 85,
+        "co": 70,
+        "pe": 20
+      }
+    },
+    {
+      "id": 71,
+      "product": "Media On",
+      "detail": "Multiformato",
+      "key": "Media On | Multiformato",
+      "min": null,
+      "layer": "Digital Offsite",
+      "weights": {
+        "aw": 50,
+        "co": 60,
+        "pe": 80
+      }
+    },
+    {
+      "id": 72,
+      "product": "Mensajeria",
+      "detail": "SMS",
+      "key": "Mensajeria | SMS",
+      "min": null,
+      "layer": "CRM / Mensajería",
+      "weights": {
+        "aw": 20,
+        "co": 45,
+        "pe": 75
+      }
+    },
+    {
+      "id": 73,
+      "product": "Mensajeria",
+      "detail": "Email Multimarca",
+      "key": "Mensajeria | Email Multimarca",
+      "min": null,
+      "layer": "CRM / Mensajería",
+      "weights": {
+        "aw": 45,
+        "co": 60,
+        "pe": 70
+      }
+    },
+    {
+      "id": 74,
+      "product": "Tienda",
+      "detail": "Floorgraphics",
+      "key": "Tienda | Floorgraphics",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 80,
+        "co": 45,
+        "pe": 10
+      }
+    },
+    {
+      "id": 75,
+      "product": "Tienda",
+      "detail": "Boletas",
+      "key": "Tienda | Boletas",
+      "min": null,
+      "layer": "Tienda",
+      "weights": {
+        "aw": 40,
+        "co": 45,
+        "pe": 60
+      }
+    }
+  ],
+  "brandMaster": {
+    "BOSCH": "HERRAMIENTAS Y MAQUINARIAS",
+    "BLACK+DECKER": "HERRAMIENTAS Y MAQUINARIAS",
+    "BLACK & DECKER": "HERRAMIENTAS Y MAQUINARIAS",
+    "MAKITA": "HERRAMIENTAS Y MAQUINARIAS",
+    "INDURA": "HERRAMIENTAS Y MAQUINARIAS",
+    "KARCHER": "HERRAMIENTAS Y MAQUINARIAS",
+    "STIHL": "HERRAMIENTAS Y MAQUINARIAS",
+    "MIDEA": "ELECTROHOGAR",
+    "ELECTROLUX": "ELECTROHOGAR",
+    "MADEMSA": "ELECTROHOGAR",
+    "HISENSE": "ELECTROHOGAR",
+    "THOMAS": "ELECTROHOGAR",
+    "OSTER": "ELECTROHOGAR",
+    "SAMSUNG": "ELECTROHOGAR",
+    "TOYOTOMI": "ELECTROHOGAR",
+    "BOSCA": "ELECTROHOGAR",
+    "LIBERO": "ELECTROHOGAR",
+    "CIC": "MUEBLES",
+    "ROSEN": "MUEBLES",
+    "FLEX": "MUEBLES",
+    "CELTA": "MUEBLES",
+    "TUHOME": "MUEBLES",
+    "VEKKAHOME": "MUEBLES",
+    "DRIMKIP": "MUEBLES",
+    "RHEEM": "BANOS Y COCINAS",
+    "SPLENDID": "BANOS Y COCINAS",
+    "STRETTO": "BANOS Y COCINAS",
+    "TEKA": "BANOS Y COCINAS",
+    "JUNKERS": "BANOS Y COCINAS",
+    "JUST HOME COLLECTION": "BANOS Y COCINAS",
+    "3M": "FERRETERIA",
+    "SCOTCH": "FERRETERIA",
+    "LANCO": "PINTURA Y ACCESORIOS",
+    "AGOREX": "PINTURA Y ACCESORIOS",
+    "HENKEL": "PINTURA Y ACCESORIOS",
+    "CERESITA": "PINTURA Y ACCESORIOS",
+    "TRICOLOR": "PINTURA Y ACCESORIOS",
+    "VOLCAN": "TABIQUERIA/TECHUMBRE/AISLACION",
+    "VOLCANITA": "TABIQUERIA/TECHUMBRE/AISLACION",
+    "CORDILLERA": "PISOS Y MUROS",
+    "HOGA": "PISOS Y MUROS",
+    "CHAMPION": "MASCOTAS",
+    "DOG CHOW": "MASCOTAS",
+    "VILEDA": "ASEO",
+    "DR BECKMANN": "ASEO",
+    "AIRWICK": "ASEO",
+    "TORK": "ASEO"
+  },
+  "benchmarks": {
+    "ELECTROHOGAR": {
+      "campaigns": 164,
+      "roas": 7.8,
+      "ctr": 2.26,
+      "top": "Sponsored Products",
+      "avgBudget": 747778
+    },
+    "MUEBLES": {
+      "campaigns": 55,
+      "roas": 6.5,
+      "ctr": 2.25,
+      "top": "Sponsored Products",
+      "avgBudget": 680547
+    },
+    "BANOS Y COCINAS": {
+      "campaigns": 30,
+      "roas": 7.1,
+      "ctr": 2.11,
+      "top": "Sponsored Products",
+      "avgBudget": 1376357
+    },
+    "HERRAMIENTAS Y MAQUINARIAS": {
+      "campaigns": 19,
+      "roas": 8.1,
+      "ctr": 1.9,
+      "top": "Sponsored Products",
+      "avgBudget": 1098336
+    },
+    "PINTURA Y ACCESORIOS": {
+      "campaigns": 12,
+      "roas": 6.3,
+      "ctr": 2,
+      "top": "Contenido / Tienda",
+      "avgBudget": 1034927
+    },
+    "JARDIN": {
+      "campaigns": 14,
+      "roas": 5.9,
+      "ctr": 2,
+      "top": "Tienda / Sponsored Products",
+      "avgBudget": 629883
+    },
+    "ASEO": {
+      "campaigns": 10,
+      "roas": 5.2,
+      "ctr": 1.8,
+      "top": "Tienda / Mensajeria",
+      "avgBudget": 279805
+    },
+    "FERRETERIA": {
+      "campaigns": 17,
+      "roas": 6,
+      "ctr": 1.82,
+      "top": "Sponsored Products / B2B_Analitica",
+      "avgBudget": 424640
+    },
+    "SIN FAMILIA": {
+      "campaigns": 0,
+      "roas": 6.1,
+      "ctr": 2.16,
+      "top": "Sponsored Products",
+      "avgBudget": 350000
+    }
+  },
+  "drivers": [
+    "Generar ventas",
+    "Captar clientes nuevos",
+    "Incrementar frecuencia",
+    "Aumentar consideración",
+    "Lanzamiento de producto",
+    "Defender share"
+  ],
+  "events": [
+    "Always On",
+    "Cyber",
+    "Black / Peak Season",
+    "Campaña especial",
+    "Lanzamiento",
+    "Aniversario",
+    "Otro"
+  ],
+  "focuses": [
+    "Digital",
+    "Tienda",
+    "Omnicanal"
+  ],
+  "capabilities": [
+    "Audiencias / segmentación",
+    "Retargeting",
+    "Medición de resultados",
+    "Incrementalidad cuando aplique"
+  ]
+}

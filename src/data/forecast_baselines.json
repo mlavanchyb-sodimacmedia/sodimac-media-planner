@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "source": "mix de medios Sodimac Media (2).xlsx",
+    "sheet": "resumen",
+    "totalRows": 24671,
+    "method": "mediana histórica",
+    "note": "CTR solo se calcula en filas con impresiones mayores que cero. ROAS queda pendiente del cruce con registros comerciales."
+  },
+  "groups": {
+    "CRM": {
+      "sampleSize": 11661,
+      "rowsWithImpressions": 0,
+      "rowsWithReach": 11661,
+      "rowsWithSales": 11559,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "medianSalesPerClick": 14120.8998,
+      "totalSales": 32782974862,
+      "roas": null,
+      "confidence": "Alta"
+    },
+    "Google": {
+      "sampleSize": 3057,
+      "rowsWithImpressions": 3057,
+      "rowsWithReach": 0,
+      "rowsWithSales": 1657,
+      "medianCtr": 1.7912,
+      "weightedCtr": 2.0902,
+      "medianReachRate": null,
+      "medianSalesPerClick": 1921.0095,
+      "totalSales": 1498077456,
+      "roas": null,
+      "confidence": "Alta"
+    },
+    "Meta": {
+      "sampleSize": 980,
+      "rowsWithImpressions": 980,
+      "rowsWithReach": 0,
+      "rowsWithSales": 46,
+      "medianCtr": 2.2231,
+      "weightedCtr": 2.81,
+      "medianReachRate": null,
+      "medianSalesPerClick": 127.1438,
+      "totalSales": 18623910,
+      "roas": null,
+      "confidence": "Alta"
+    },
+    "Retail Display": {
+      "sampleSize": 8426,
+      "rowsWithImpressions": 8426,
+      "rowsWithReach": 0,
+      "rowsWithSales": 0,
+      "medianCtr": 0.1843,
+      "weightedCtr": 0.2758,
+      "medianReachRate": null,
+      "medianSalesPerClick": null,
+      "totalSales": 0,
+      "roas": null,
+      "confidence": "Alta"
+    },
+    "Sponsored Products": {
+      "sampleSize": 404,
+      "rowsWithImpressions": 364,
+      "rowsWithReach": 0,
+      "rowsWithSales": 273,
+      "medianCtr": 1.5875,
+      "weightedCtr": 2.064,
+      "medianReachRate": null,
+      "medianSalesPerClick": 2484.3459,
+      "totalSales": 1657314341,
+      "roas": null,
+      "confidence": "Alta"
+    }
+  },
+  "products": {
+    "banners": {
+      "displayName": "banners",
+      "commercialGroup": "Retail Display",
+      "sampleSize": 8426,
+      "medianCtr": 0.1843,
+      "weightedCtr": 0.2758,
+      "medianReachRate": null,
+      "totalSales": 0,
+      "roas": null
+    },
+    "carro abandonado": {
+      "displayName": "Carro Abandonado",
+      "commercialGroup": "CRM",
+      "sampleSize": 4577,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 1626102383,
+      "roas": null
+    },
+    "daba": {
+      "displayName": "daba​",
+      "commercialGroup": "Meta",
+      "sampleSize": 31,
+      "medianCtr": 0.1417,
+      "weightedCtr": 0.1398,
+      "medianReachRate": null,
+      "totalSales": 0,
+      "roas": null
+    },
+    "dpa": {
+      "displayName": "dpa​",
+      "commercialGroup": "Meta",
+      "sampleSize": 31,
+      "medianCtr": 1.0522,
+      "weightedCtr": 1.114,
+      "medianReachRate": null,
+      "totalSales": 0,
+      "roas": null
+    },
+    "emkt": {
+      "displayName": "EMKT",
+      "commercialGroup": "CRM",
+      "sampleSize": 1807,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 16819635949,
+      "roas": null
+    },
+    "facebook": {
+      "displayName": "facebook",
+      "commercialGroup": "Meta",
+      "sampleSize": 918,
+      "medianCtr": 2.3147,
+      "weightedCtr": 2.8773,
+      "medianReachRate": null,
+      "totalSales": 18623910,
+      "roas": null
+    },
+    "informativo": {
+      "displayName": "Informativo",
+      "commercialGroup": "CRM",
+      "sampleSize": 102,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 0,
+      "roas": null
+    },
+    "navegacion": {
+      "displayName": "Navegación",
+      "commercialGroup": "CRM",
+      "sampleSize": 4311,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 3128253928,
+      "roas": null
+    },
+    "otro": {
+      "displayName": "OTRO",
+      "commercialGroup": "Otros",
+      "sampleSize": 1,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 0,
+      "roas": null
+    },
+    "patrocinado": {
+      "displayName": "patrocinado",
+      "commercialGroup": "Sponsored Products",
+      "sampleSize": 131,
+      "medianCtr": 0.2379,
+      "weightedCtr": 0.3315,
+      "medianReachRate": null,
+      "totalSales": 0,
+      "roas": null
+    },
+    "pmax": {
+      "displayName": "pmax",
+      "commercialGroup": "Google",
+      "sampleSize": 259,
+      "medianCtr": 1.4648,
+      "weightedCtr": 3.3319,
+      "medianReachRate": null,
+      "totalSales": 483582907,
+      "roas": null
+    },
+    "push": {
+      "displayName": "PUSH",
+      "commercialGroup": "CRM",
+      "sampleSize": 732,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 11076966146,
+      "roas": null
+    },
+    "search": {
+      "displayName": "search​",
+      "commercialGroup": "Google",
+      "sampleSize": 568,
+      "medianCtr": 4.6693,
+      "weightedCtr": 4.7897,
+      "medianReachRate": null,
+      "totalSales": 66402041,
+      "roas": null
+    },
+    "shopping": {
+      "displayName": "shopping",
+      "commercialGroup": "Google",
+      "sampleSize": 2230,
+      "medianCtr": 1.6243,
+      "weightedCtr": 1.7635,
+      "medianReachRate": null,
+      "totalSales": 948092508,
+      "roas": null
+    },
+    "sp": {
+      "displayName": "SP",
+      "commercialGroup": "Sponsored Products",
+      "sampleSize": 273,
+      "medianCtr": 2.0905,
+      "weightedCtr": 2.2559,
+      "medianReachRate": null,
+      "totalSales": 1657314341,
+      "roas": null
+    },
+    "trigger-journey": {
+      "displayName": "TRIGGER-JOURNEY",
+      "commercialGroup": "CRM",
+      "sampleSize": 45,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 0,
+      "roas": null
+    },
+    "whatsapp": {
+      "displayName": "WHATSAPP",
+      "commercialGroup": "CRM",
+      "sampleSize": 87,
+      "medianCtr": null,
+      "weightedCtr": null,
+      "medianReachRate": null,
+      "totalSales": 132016456,
+      "roas": null
+    }
+  }
+}

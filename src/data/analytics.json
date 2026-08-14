@@ -1,0 +1,674 @@
+{
+  "metadata": {
+    "trainingSource": "forecast_training_dataset.csv",
+    "baselinesSource": "forecast_baselines_real.json",
+    "configSource": "sales_planner_config_v2.json",
+    "method": "mediana con filtro percentil 5-95",
+    "disclaimer": "Estimaciones referenciales basadas en históricos. Cuando no existe una tasa histórica de alcance, se usa un fallback por grupo comercial."
+  },
+  "summary": {
+    "familiesWithHistory": 16,
+    "familiesWithoutHistory": 6,
+    "totalFamilies": 22,
+    "baselinesGenerated": 60,
+    "familyGroupBaselines": 55,
+    "groupBaselines": 4,
+    "totalTrainingRows": 4220,
+    "validObservations": 852
+  },
+  "matchQuality": {
+    "total": 4220,
+    "exact": 234,
+    "probable": 660,
+    "unmatched": 3326,
+    "exactPercentage": 5.55,
+    "probablePercentage": 15.64,
+    "unmatchedPercentage": 78.82
+  },
+  "roasByGroup": [
+    {
+      "group": "Sponsored Products",
+      "roas": 11.5477,
+      "roasP25": 5.6436,
+      "roasP75": 20.8727,
+      "ctr": 2.1699,
+      "cpm": 6997.0132,
+      "cpc": 324.4646,
+      "reachRate": 0.5,
+      "reachRateSource": "fallback",
+      "sampleSize": 115,
+      "exactSamples": 88,
+      "probableSamples": 27,
+      "confidence": "Alta",
+      "salesForecastEnabled": true
+    },
+    {
+      "group": "Google",
+      "roas": 7.0492,
+      "roasP25": 1.9907,
+      "roasP75": 10.4567,
+      "ctr": 1.8255,
+      "cpm": 3930.6332,
+      "cpc": 207.9363,
+      "reachRate": 0.55,
+      "reachRateSource": "fallback",
+      "sampleSize": 68,
+      "exactSamples": 3,
+      "probableSamples": 65,
+      "confidence": "Alta",
+      "salesForecastEnabled": true
+    },
+    {
+      "group": "CRM",
+      "roas": 4.5335,
+      "roasP25": 1.6711,
+      "roasP75": 11.8402,
+      "ctr": null,
+      "cpm": null,
+      "cpc": 2794.1636,
+      "reachRate": 1.0,
+      "reachRateSource": "fallback",
+      "sampleSize": 402,
+      "exactSamples": 86,
+      "probableSamples": 316,
+      "confidence": "Alta",
+      "salesForecastEnabled": true
+    },
+    {
+      "group": "Retail Display",
+      "roas": 0.0,
+      "roasP25": 0.0,
+      "roasP75": 0.0,
+      "ctr": 0.1954,
+      "cpm": 2978.6167,
+      "cpc": 1939.6552,
+      "reachRate": 0.6,
+      "reachRateSource": "fallback",
+      "sampleSize": 203,
+      "exactSamples": 20,
+      "probableSamples": 183,
+      "confidence": "Alta",
+      "salesForecastEnabled": false
+    }
+  ],
+  "forecastQuality": [
+    {
+      "group": "CRM",
+      "sampleSize": 402,
+      "originalSampleSize": 448,
+      "excludedAsOutlier": 46,
+      "exactSamples": 86,
+      "probableSamples": 316,
+      "confidence": "Alta",
+      "salesForecastEnabled": true
+    },
+    {
+      "group": "Retail Display",
+      "sampleSize": 203,
+      "originalSampleSize": 203,
+      "excludedAsOutlier": 0,
+      "exactSamples": 20,
+      "probableSamples": 183,
+      "confidence": "Alta",
+      "salesForecastEnabled": false
+    },
+    {
+      "group": "Sponsored Products",
+      "sampleSize": 115,
+      "originalSampleSize": 129,
+      "excludedAsOutlier": 14,
+      "exactSamples": 88,
+      "probableSamples": 27,
+      "confidence": "Alta",
+      "salesForecastEnabled": true
+    },
+    {
+      "group": "Google",
+      "sampleSize": 68,
+      "originalSampleSize": 72,
+      "excludedAsOutlier": 4,
+      "exactSamples": 3,
+      "probableSamples": 65,
+      "confidence": "Alta",
+      "salesForecastEnabled": true
+    }
+  ],
+  "families": [
+    {
+      "family": "ELECTROHOGAR",
+      "hasHistory": true,
+      "sampleSize": 316,
+      "exactSamples": 94,
+      "probableSamples": 222,
+      "groupCount": 4,
+      "roas": 5.2192,
+      "ctr": 1.1967,
+      "confidence": "Alta",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 144,
+          "roas": 5.1643,
+          "ctr": null,
+          "confidence": "Alta",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 80,
+          "roas": 0.0,
+          "ctr": 0.2322,
+          "confidence": "Alta",
+          "salesForecastEnabled": false
+        },
+        {
+          "group": "Sponsored Products",
+          "sampleSize": 53,
+          "roas": 13.0035,
+          "ctr": 2.2162,
+          "confidence": "Alta",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Google",
+          "sampleSize": 39,
+          "roas": 5.5494,
+          "ctr": 1.7898,
+          "confidence": "Alta",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "MUEBLES",
+      "hasHistory": true,
+      "sampleSize": 124,
+      "exactSamples": 32,
+      "probableSamples": 92,
+      "groupCount": 4,
+      "roas": 6.6627,
+      "ctr": 1.5072,
+      "confidence": "Media",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 70,
+          "roas": 7.7947,
+          "ctr": null,
+          "confidence": "Alta",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 21,
+          "roas": 0.0,
+          "ctr": 0.3961,
+          "confidence": "Media",
+          "salesForecastEnabled": false
+        },
+        {
+          "group": "Sponsored Products",
+          "sampleSize": 19,
+          "roas": 7.5311,
+          "ctr": 2.1579,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Google",
+          "sampleSize": 14,
+          "roas": 9.8178,
+          "ctr": 2.2908,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "BANOS Y COCINAS",
+      "hasHistory": true,
+      "sampleSize": 50,
+      "exactSamples": 22,
+      "probableSamples": 28,
+      "groupCount": 2,
+      "roas": 9.4021,
+      "ctr": 2.04,
+      "confidence": "Media",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 34,
+          "roas": 4.5226,
+          "ctr": null,
+          "confidence": "Alta",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Sponsored Products",
+          "sampleSize": 16,
+          "roas": 19.7711,
+          "ctr": 2.04,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "JARDIN",
+      "hasHistory": true,
+      "sampleSize": 46,
+      "exactSamples": 5,
+      "probableSamples": 41,
+      "groupCount": 4,
+      "roas": 2.6909,
+      "ctr": 1.4081,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 18,
+          "roas": 2.4477,
+          "ctr": null,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Google",
+          "sampleSize": 11,
+          "roas": 2.0156,
+          "ctr": 2.1231,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 11,
+          "roas": 0.0,
+          "ctr": 0.2141,
+          "confidence": "Media",
+          "salesForecastEnabled": false
+        },
+        {
+          "group": "Sponsored Products",
+          "sampleSize": 6,
+          "roas": 9.5921,
+          "ctr": 2.2864,
+          "confidence": "Baja",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "HERRAMIENTAS Y MAQUINARIAS",
+      "hasHistory": true,
+      "sampleSize": 45,
+      "exactSamples": 7,
+      "probableSamples": 38,
+      "groupCount": 2,
+      "roas": 2.971,
+      "ctr": 0.3826,
+      "confidence": "Media",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 30,
+          "roas": 4.4565,
+          "ctr": null,
+          "confidence": "Alta",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 15,
+          "roas": 0.0,
+          "ctr": 0.3826,
+          "confidence": "Media",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "PINTURA Y ACCESORIOS",
+      "hasHistory": true,
+      "sampleSize": 41,
+      "exactSamples": 6,
+      "probableSamples": 35,
+      "groupCount": 2,
+      "roas": 1.2601,
+      "ctr": 0.1251,
+      "confidence": "Media",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 28,
+          "roas": 1.8451,
+          "ctr": null,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 13,
+          "roas": 0.0,
+          "ctr": 0.1251,
+          "confidence": "Media",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "TABIQUERIA/TECHUMBRE/AISLACION",
+      "hasHistory": true,
+      "sampleSize": 28,
+      "exactSamples": 1,
+      "probableSamples": 27,
+      "groupCount": 2,
+      "roas": 2.0377,
+      "ctr": 0.1388,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 20,
+          "roas": 2.8528,
+          "ctr": null,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 8,
+          "roas": 0.0,
+          "ctr": 0.1388,
+          "confidence": "Baja",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "FERRETERIA",
+      "hasHistory": true,
+      "sampleSize": 18,
+      "exactSamples": 7,
+      "probableSamples": 11,
+      "groupCount": 2,
+      "roas": 0.9756,
+      "ctr": 0.091,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "Retail Display",
+          "sampleSize": 12,
+          "roas": 0.0,
+          "ctr": 0.091,
+          "confidence": "Media",
+          "salesForecastEnabled": false
+        },
+        {
+          "group": "CRM",
+          "sampleSize": 6,
+          "roas": 2.9268,
+          "ctr": null,
+          "confidence": "Baja",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "CASA INTELIGENTE",
+      "hasHistory": true,
+      "sampleSize": 15,
+      "exactSamples": 3,
+      "probableSamples": 12,
+      "groupCount": 2,
+      "roas": 1.1828,
+      "ctr": 0.1711,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 9,
+          "roas": 1.9713,
+          "ctr": null,
+          "confidence": "Baja",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 6,
+          "roas": 0.0,
+          "ctr": 0.1711,
+          "confidence": "Baja",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "ASEO",
+      "hasHistory": true,
+      "sampleSize": 14,
+      "exactSamples": 1,
+      "probableSamples": 13,
+      "groupCount": 2,
+      "roas": 0.5728,
+      "ctr": 0.1299,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 8,
+          "roas": 1.0024,
+          "ctr": null,
+          "confidence": "Baja",
+          "salesForecastEnabled": true
+        },
+        {
+          "group": "Retail Display",
+          "sampleSize": 6,
+          "roas": 0.0,
+          "ctr": 0.1299,
+          "confidence": "Baja",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "PISOS Y MUROS",
+      "hasHistory": true,
+      "sampleSize": 14,
+      "exactSamples": 0,
+      "probableSamples": 14,
+      "groupCount": 1,
+      "roas": 9.0943,
+      "ctr": null,
+      "confidence": "Media",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 14,
+          "roas": 9.0943,
+          "ctr": null,
+          "confidence": "Media",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "ACCESORIOS AUTOMOVILES",
+      "hasHistory": true,
+      "sampleSize": 7,
+      "exactSamples": 1,
+      "probableSamples": 6,
+      "groupCount": 1,
+      "roas": 3.9188,
+      "ctr": null,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 7,
+          "roas": 3.9188,
+          "ctr": null,
+          "confidence": "Baja",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "ELECTRICIDAD",
+      "hasHistory": true,
+      "sampleSize": 7,
+      "exactSamples": 0,
+      "probableSamples": 7,
+      "groupCount": 1,
+      "roas": 0.0,
+      "ctr": 0.1307,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "Retail Display",
+          "sampleSize": 7,
+          "roas": 0.0,
+          "ctr": 0.1307,
+          "confidence": "Baja",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "PLOMERIA / GASFITERIA",
+      "hasHistory": true,
+      "sampleSize": 6,
+      "exactSamples": 0,
+      "probableSamples": 6,
+      "groupCount": 1,
+      "roas": 30.3529,
+      "ctr": null,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 6,
+          "roas": 30.3529,
+          "ctr": null,
+          "confidence": "Baja",
+          "salesForecastEnabled": true
+        }
+      ]
+    },
+    {
+      "family": "MADERA Y TABLEROS",
+      "hasHistory": true,
+      "sampleSize": 5,
+      "exactSamples": 0,
+      "probableSamples": 5,
+      "groupCount": 1,
+      "roas": 0.0,
+      "ctr": null,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "CRM",
+          "sampleSize": 5,
+          "roas": 0.0,
+          "ctr": null,
+          "confidence": "Baja",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "PUERTAS/VENTANAS/MOLDURAS",
+      "hasHistory": true,
+      "sampleSize": 5,
+      "exactSamples": 0,
+      "probableSamples": 5,
+      "groupCount": 1,
+      "roas": 0.0,
+      "ctr": 0.2036,
+      "confidence": "Baja",
+      "groups": [
+        {
+          "group": "Retail Display",
+          "sampleSize": 5,
+          "roas": 0.0,
+          "ctr": 0.2036,
+          "confidence": "Baja",
+          "salesForecastEnabled": false
+        }
+      ]
+    },
+    {
+      "family": "AIRE LIBRE",
+      "hasHistory": false,
+      "sampleSize": 0,
+      "exactSamples": 0,
+      "probableSamples": 0,
+      "groupCount": 0,
+      "roas": null,
+      "ctr": null,
+      "confidence": "Sin histórico",
+      "groups": []
+    },
+    {
+      "family": "DECORACION",
+      "hasHistory": false,
+      "sampleSize": 0,
+      "exactSamples": 0,
+      "probableSamples": 0,
+      "groupCount": 0,
+      "roas": null,
+      "ctr": null,
+      "confidence": "Sin histórico",
+      "groups": []
+    },
+    {
+      "family": "MASCOTAS",
+      "hasHistory": false,
+      "sampleSize": 0,
+      "exactSamples": 0,
+      "probableSamples": 0,
+      "groupCount": 0,
+      "roas": null,
+      "ctr": null,
+      "confidence": "Sin histórico",
+      "groups": []
+    },
+    {
+      "family": "MENAJE",
+      "hasHistory": false,
+      "sampleSize": 0,
+      "exactSamples": 0,
+      "probableSamples": 0,
+      "groupCount": 0,
+      "roas": null,
+      "ctr": null,
+      "confidence": "Sin histórico",
+      "groups": []
+    },
+    {
+      "family": "OBRA GRUESA",
+      "hasHistory": false,
+      "sampleSize": 0,
+      "exactSamples": 0,
+      "probableSamples": 0,
+      "groupCount": 0,
+      "roas": null,
+      "ctr": null,
+      "confidence": "Sin histórico",
+      "groups": []
+    },
+    {
+      "family": "ORGANIZACION",
+      "hasHistory": false,
+      "sampleSize": 0,
+      "exactSamples": 0,
+      "probableSamples": 0,
+      "groupCount": 0,
+      "roas": null,
+      "ctr": null,
+      "confidence": "Sin histórico",
+      "groups": []
+    }
+  ]
+}
