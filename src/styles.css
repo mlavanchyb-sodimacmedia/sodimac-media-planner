@@ -1229,4 +1229,9 @@ button:disabled {
     transform: none;
   }
 }
+.header-logo {
+  height: 72px;
+  width: auto;
+  display: block;
+}
 

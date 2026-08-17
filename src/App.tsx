@@ -231,9 +231,12 @@ export default function App() {
     <main>
       <header>
         <div className="brand">
-          <Sparkles />
-          Sodimac Media
-        </div>
+  <img
+    src={`${import.meta.env.BASE_URL}logo-sodimac-media.png`}
+    alt="Logo Sodimac Media"
+    className="header-logo"
+  />
+</div>
 
         <nav className="nav" aria-label="Navegación principal">
           <button className="active" onClick={() => setView("planner")}>
@@ -510,16 +513,11 @@ export default function App() {
         <button className="back" onClick={() => setGenerated(false)}>
           ← Editar brief
         </button>
+        
 
 <div className="proposalHead">
-
+  
   <div>
-
-    /logo-sodimac-media.png
-
-    <div className="eyebrow">
-      PROPUESTA RECOMENDADA
-    </div>
 
     <h2>
       {brand} · {event} · {family}
